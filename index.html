@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shailesh | Frontend Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-b from-gray-900 to-black text-white scroll-smooth">
+
+  <!-- Header -->
+  <header class="fixed w-full z-10 bg-black bg-opacity-80 shadow-xl">
+    <nav class="flex justify-between items-center p-4 max-w-7xl mx-auto">
+      <h1 class="text-2xl font-bold text-blue-400">MY PROTFOLIO</h1>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="#about" class="hover:text-yellow-400 transition">About</a></li>
+        <li><a href="#skills" class="hover:text-yellow-400 transition">Skills</a></li>
+        <li><a href="#projects" class="hover:text-yellow-400 transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <!-- INTRO SECTION -->
+<section id="intro" class="w-full h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 text-white px-6 py-16">
+  <!-- Image Side -->
+  <div class="md:w-1/2 w-full flex justify-center mb-10 md:mb-0">
+    <img src="shailesh.png" alt="Shailesh's photo" class="rounded-full w-60 h-60 border-4 border-purple-500 shadow-lg" />
+  </div>
+
+  <!-- Auto Sliding Text -->
+  <div class="md:w-1/2 w-full flex flex-col items-start animate-fade-in-up space-y-4">
+    <h1 class="text-4xl md:text-5xl font-bold text-yellow-400">Hi, I'm Shailesh</h1>
+    <h2 class="text-2xl md:text-3xl font-semibold text-blue-300">Full Stack Web Developer</h2>
+    <div class="text-lg text-white h-24 overflow-hidden relative">
+      <div class="absolute animate-slide-text space-y-4">
+        <p>I design and build modern, responsive websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+        <p>I create smooth, interactive, 3D-styled single-page websites.</p>
+        <p>Passionate about clean UI/UX and frontend innovation.</p>
+        <p>Open to freelance and collaboration work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="min-h-screen py-20 px-6 bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-yellow-400">About Me</h2>
+      <p class="text-lg leading-relaxed text-gray-200">
+        I'm Shailesh, a creative and detail-oriented frontend web developer. I specialize in designing responsive, fast, and interactive websites using modern technologies like HTML5, CSS3, JavaScript, Tailwind CSS, and Bootstrap.Backend language of PHP,JAVA.I bring ideas to life with elegant designs and smooth animations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="min-h-screen py-20 px-6 bg-gradient-to-r from-gray-900 via-gray-800 to-black">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10 text-yellow-400">My Skills</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-lg">
+        <div class="skill-card transform hover:rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">HTML5</div>
+        <div class="skill-card transform hover:-rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">CSS3</div>
+        <div class="skill-card transform hover:rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">JavaScript</div>
+        <div class="skill-card transform hover:-rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">Tailwind CSS</div>
+        <div class="skill-card transform hover:rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">Bootstrap</div>
+        <div class="skill-card transform hover:-rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">Responsive Design</div>
+         <div class="skill-card transform hover:-rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">PHP</div>
+        <div class="skill-card transform hover:-rotate-6 hover:scale-105 transition duration-500 bg-gray-700 p-6 rounded-xl shadow-xl">JAVA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section id="projects" class="min-h-screen py-20 px-6 bg-gray-800">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10 text-yellow-400">My Projects</h2>
+      <div class="bg-gray-900 p-6 rounded-xl shadow-xl">
+        <h3 class="text-2xl font-semibold text-blue-400">SkillCrafters - Skill-Based Learning Platform</h3>
+        <p class="mt-4 text-gray-300 text-lg leading-relaxed">
+          SkillCrafters is a modern web platform for students to learn programming and technical skills like HTML, CSS, JavaScript, PHP, App Development, and more without requiring login. It includes PDFs, videos, final tests, and certificates. The UI is fully responsive, fast, and interactive using HTML, Tailwind CSS, and JavaScript. It’s designed for government-supported education projects to boost employability in students.
+        </p>
+        <img src="https://via.placeholder.com/800x400.png?text=SkillCrafters+Project+Preview" alt="SkillCrafters Project Screenshot" class="mt-6 rounded-lg border-4 border-blue-400 mx-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="min-h-screen py-20 px-6 bg-gray-900">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-yellow-400">Contact Me</h2>
+      <p class="mb-6 text-lg text-gray-300">Feel free to reach out via email or phone:</p>
+      <p class="text-blue-400 text-xl">
+  📧 <a href="https://mail.google.com/mail/?view=cm&to=shaileshsuthar09495@gmail.com" target="_blank" class="underline hover:text-yellow-300">
+    shaileshsuthar09495@gmail.com
+  </a>
+</p>
+<p class="text-green-400 text-xl mt-2">
+  📞 <a href="tel:+917567268056" class="underline hover:text-yellow-300">
+    7567268056
+  </a>
+</p>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-6 text-center text-gray-500">
+    © 2025 Shailesh. All rights reserved.
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
+</body>
+</html>
